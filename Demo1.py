@@ -338,6 +338,7 @@ def format_number(num):
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
     data = data.dropna()  # Remove missing rows
+    data['Cohort']= data['Cohort'].replace('Cohort undefined', 'Cohortless')
     data = data.reset_index(drop=True)
     data.index = data.index + 1
     data.index.name = 'S/N'
