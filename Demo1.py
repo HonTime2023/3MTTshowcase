@@ -121,6 +121,9 @@ st.markdown(
              
             
             }
+            
+            
+            
         .banner-title {
              margin: 0;
             color: var(--bs-primary);
@@ -878,7 +881,7 @@ if uploaded_file is not None:
                                  y=results_df['Actual MPI'],
                                  mode='lines',
                                  name='Actual MPI',
-                                 line=dict(color='#AFCF35'),
+                                 line=dict(color='green'),
                                  ))
 
         # Add the predicted MPI line
@@ -886,7 +889,7 @@ if uploaded_file is not None:
                                  y=results_df['Predicted MPI'],
                                  mode='lines',
                                  name='Predicted MPI',
-                                 line=dict(color='green'),
+                                 line=dict(color='#F87329'),
                                  ))
 
         # Update layout to customize the chart
@@ -1196,7 +1199,7 @@ if uploaded_file is not None:
             x=combined_mpi_selected_df.index,
             y=combined_mpi_selected_df['Adjusted Predicted MPI'],
             mode='lines',  # Line without markers
-            line=dict(color='#AFCF35', width=2),
+            line=dict(color='#F87329', width=2),
             name='Adjusted Predicted MPI'
         ))
 
