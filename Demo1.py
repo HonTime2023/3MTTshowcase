@@ -270,39 +270,38 @@ st.markdown(
 
 
 # Banner layout using the flexbox design
+# Banner layout using the flexbox design
 st.markdown(
     """
     <div class="banner-container">
         <div class="banner-item">
             <div class="dlab-media d-flex justify-content-between">
                 <!-- Content Section -->
-                <!-- gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg-->
                 <div class="banner-main">
                     <div class="banner-item-header">
                         <p class="banner-title">Welcome to ESAAM Soft</p>
                         <p>Exploratory and Sensitivity Analysis App for 3MTT</p>
                     </div>    
                     <!-- Image Section -->
-                 <div class="banner-image">
-                        <img src="images/image-removebg-preview.png", alt="banner-image" class=" ">
+                    <div class="banner-image">
+                        <img src="https://owolabiyussuf.com.ng/wp-content/uploads/2024/10/image-removebg-preview.png" alt="banner-image" class=" ">
                     </div> 
-                 </div>
+                </div>
                 <!-- Icons Section -->
-                 <div class="banner-icons">
-                    <img class="book" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAqCAYAAADvczj0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI1SURBVHgB7Zq7jsIwEEUnqxQpKCgoUlBQ7Efs/1f7CRRbUFBQUKSgSBGJnWtmliGEV2J7JeMjjYJ42HPtiR1xXRBzPB7nfEFUHKUEXg/RmquNQ1EUHXmGc9NcZnKtTH4lPZkj57bDGwU3+MnXJfnBCedoENzJgV6E84GQBZ0E6iT4YMf5rDFCvsQCnQEkjOQxAI101tz6kVTYQsKXwD41x7qksFTSUS3i9xxbFt9KqS7l81Airwgt2AJRELhksRA+j9y/I3qHwoL+iQ96M7Lg1MmCUycLTp0sOHWy4NTJglMnC06dLDh1suDUyYJTB4Ibeg+c/VKItbGik7WBv21hj3R06c8A/bPc+jr6m5hYP4vMVbHemL6GrwQDoCtoIuIgzOjsBanp5QNU30ECXlVLE5kseIgJXhEqay/RhHAjgwi2iPha4haYyQ0FslwtV4KlRO/5w+7+fjUxs1bUph01116yVaUtGpOjLlowucZYlbrAqSfcPkreDGh3b9B6a4PGvYm4hVq2G6wBEPxFfu1KHQC9D5+ePXMSQcMnmIxvHW2foL2/hI0pPli6ZoGrKewWV6FqMMMo59VAZ/19ruzFGNDWhk4VoKv4jMbTSViG8sN3fnDOwy1a5n5xDTyz38m9bw+b6D7sG+Tk1gc678kPczSHYchWltdtyQwcynPsgRS7Bux9PGxYgu7DZg9G6T66DaLsxcEfPICUP8Sv6HLWIWxL8pxLEYgi2MLi9dSOO9UTS6jyC3f33xkG4DF9AAAAAElFTkSuQmCC", alt="icon" class=" ">
-                    <img class="tab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA6CAYAAADvEjRHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK4SURBVHgB7Zsvc+MwEMWfOwEBAQUFBwIMDgQcONDvjwsKAgoKCgwCDAoMCgIyk+7byBnX0R/H6nQae9+MxhPZm7V/llZSsiqQoePxuJLDXyn3UvZS3oqieB9oW8phLWUhpXa2hwF2fZ+V2NXIUIGRkptZyuERp4foais31SRsSzmUvepG7LZI+/wvZXmtz5juMF4PuARA/UFaa0/dvXvIlM/lSJ9B5UBYYLxCtikIY+2iyoEwGUVjgjRPBh+WlStdLeB/MwdXYgq9uZRtyCe193z+kPKeihdeCO7hS5wATEHRUeQCggDg8LPGNOUdir9AEAAbZEbaGxBbxXMXxDkwurF76gAoxqN/3QqFIAD48CXmI85Jzl2+jbRlwojRldPhbl96cMV3bWoauwnUV7iM8hjgk6PArlfHoB5r2aWAqNktFm4kCA1ZvKFX3xDjZne+G9qn5vIu9vjUxIaziM+Dx2ct11fwT7MpNgC2hordIUYra04+QskF1DWSe+dL3Ea+V6cAhLAKXFC7LwmpubI+dQ1b0McIOyrY8twz7AKnkxCiS2LXQqpedT1wWfuKr32fb+olZZThM3ieXSy2CEo2TXFeMbjgBHLIm2ztCODJxSPeQzPkt4SxPulPbILnc1aCZweIR/SY7ah4k+PTJ1tFIt4SlgN+5JiEYhA2mImsO8AgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAjhW7NDblGzh8C/+QnhJ3OSfps0wYMQsnaN3Lg0JenOZYt8W9bHjUkbQDs6VJifqjY7TyG47K85dQsmfFXth+484Q0uUExcbYLnWf1Uf6bvcL/DVLPd+ZJf+kmqoZ0vbdb7VBK3OBfadbtAV6k9UG1WuW8P1G9XuwdKs+5jyaKf2cDeq9bZQeoAAAAASUVORK5CYII=", alt="icon" class=" ">
+                <div class="banner-icons">
+                    <img class="book" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAqCAYAAADvczj0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI1SURBVHgB7Zq7jsIwEEUnqxQpKCgoUlBQ7Efs/1f7CRRbUFBQUKSgSBGJnWtmliGEV2J7JeMjjYJ42HPtiR1xXRBzPB7nfEFUHKUEXg/RmquNQ1EUHXmGc9NcZnKtTH4lPZkj57bDGwU3+MnXJfnBCedoENzJgV6E84GQBZ0E6iT4YMf5rDFCvsQCnQEkjOQxAI101tz6kVTYQsKXwD41x7qksFTSUS3i9xxbFt9KqS7l81Airwgt2AJRELhksRA+j9y/I3qHwoL+iQ96M7Lg1MmCUycLTp0sOHWy4NTJglMnC06dLDh1suDUyYJTB4Ibeg+c/VKItbGik7WBv21hj3R06c8A/bPc+jr6m5hYP4vMVbHemL6GrwQDoCtoIuIgzOjsBanp5QNU30ECXlVLE5kseIgJXhEqay/RhHAjgwi2iPha4haYyQ0FslwtV4KlRO/5w+7+fjUxs1bUph01116yVaUtGpOjLlowucZYlbrAqSfcPkreDGh3b9B6a4PGvYm4hVq2G6wBEPxFfu1KHQC9D5+ePXMSQcMnmIxvHW2foL2/hI0pPli6ZoGrKewWV6FqMMMo59VAZ/19ruzFGNDWhk4VoKv4jMbTSViG8sN3fnDOwy1a5n5xDTyz38m9bw+b6D7sG+Tk1gc678kPczSHYchWltdtyQwcynPsgRS7Bux9PGxYgu7DZg9G6T66DaLsxcEfPICUP8Sv6HLWIWxL8pxLEYgi2MLi9dSOO9UTS6jyC3f33xkG4DF9AAAAAElFTkSuQmCC" alt="icon" class=" ">
+                    <img class="tab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA6CAYAAADvEjRHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK4SURBVHgB7Zsvc+MwEMWfOwEBAQUFBwIMDgQcONDvjwsKAgoKCgwCDAoMCgIyk+7byBnX0R/H6nQae9+MxhPZm7V/llZSsiqQoePxuJLDXyn3UvZS3oqieB9oW8phLWUhpXa2hwF2fZ+V2NXIUIGRkptZyuERp4foais31SRsSzmUvepG7LZI+/wvZXmtz5juMF4PuARA/UFaa0/dvXvIlM/lSJ9B5UBYYLxCtikIY+2iyoEwGUVjgjRPBh+WlStdLeB/MwdXYgq9uZRtyCe193z+kPKeihdeCO7hS5wATEHRUeQCggDg8LPGNOUdir9AEAAbZEbaGxBbxXMXxDkwurF76gAoxqN/3QqFIAD48CXmI85Jzl2+jbRlwojRldPhbl96cMV3bWoauwnUV7iM8hjgk6PArlfHoB5r2aWAqNktFm4kCA1ZvKFX3xDjZne+G9qn5vIu9vjUxIaziM+Dx2ct11fwT7MpNgC2hordIUYra04+QskF1DWSe+dL3Ea+V6cAhLAKXFC7LwmpubI+dQ1b0McIOyrY8twz7AKnkxCiS2LXQqpedT1wWfuKr32fb+olZZThM3ieXSy2CEo2TXFeMbjgBHLIm2ztCODJxSPeQzPkt4SxPulPbILnc1aCZweIR/SY7ah4k+PTJ1tFIt4SlgN+5JiEYhA2mImsO8AgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAwCDILKIMAgqAjhW7NDblGzh8C/+QnhJ3OSfps0wYMQsnaN3Lg0JenOZYt8W9bHjUkbQDs6VJifqjY7TyG47K85dQsmfFXth+484Q0uUExcbYLnWf1Uf6bvcL/DVLPd+ZJf+kmqoZ0vbdb7VBK3OBfadbtAV6k9UG1WuW8P1G9XuwdKs+5jyaKf2cDeq9bZQeoAAAAASUVORK5CYII=" alt="icon" class=" ">
                 </div> 
             </div>
         </div>
-        
+
     </div>
-    
     """,
     unsafe_allow_html=True
 )
 
 
-st.sidebar.markdown('<img src="images/3mtt logo.png" alt="Logo" class="sidebar-logo">', unsafe_allow_html=True)
+st.sidebar.markdown('<img src="https://miro.medium.com/v2/resize:fit:577/1*BE3sBHk__b3AMvBTIHyr-g.png" alt="Logo" class="sidebar-logo">', unsafe_allow_html=True)
 # Include Font Awesome for icons
 st.sidebar.markdown("""
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
