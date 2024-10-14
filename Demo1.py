@@ -284,7 +284,7 @@ st.markdown(
                     </div>    
                     <!-- Image Section -->
                  <div class="banner-image">
-                        <img src="https://app.3mtt.training/static/media/education-girl.b8a777ab708c361de94c.png", alt="banner-image" class=" ">
+                        <img src="images/image-removebg-preview.png", alt="banner-image" class=" ">
                     </div> 
                  </div>
                 <!-- Icons Section -->
@@ -302,7 +302,7 @@ st.markdown(
 )
 
 
-st.sidebar.markdown('<img class="sidebar-logo" src="https://app.3mtt.training/static/media/main.242b8b1ce339b38fd589.png" alt="Logo">', unsafe_allow_html=True)
+st.sidebar.markdown('<img src="images/3mtt logo.png" alt="Logo" class="sidebar-logo">', unsafe_allow_html=True)
 # Include Font Awesome for icons
 st.sidebar.markdown("""
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
